@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffe4ec; /* soft pink background */
+  scroll-behavior: smooth;
+}
+
+/* Optional: nice scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ffd6e8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f472b6; /* Tailwind pink-400 */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ec4899; /* Tailwind pink-500 */
+}
